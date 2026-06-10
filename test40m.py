@@ -57,7 +57,7 @@ def update_price():
                 if new_price == "":
                     print("Không được phép để trống!")
                     continue
-                
+
                 break
             products[i]["price"] = new_price
             print("Đã cập nhật giá thành công")
@@ -80,11 +80,11 @@ Lựa chọn của bạn (1-4): """)
     
         match choice:
             case "1":
-                pass
+                display_products()
             case "2":
-                pass
+                add_product()
             case "3":
-                pass
+                update_price()
             case "4":
                 print("Thoát chương trình")
                 break
